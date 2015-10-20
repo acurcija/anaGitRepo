@@ -12,7 +12,7 @@ Whenever you're confused about git, come read this cheat sheet. Remember that al
 #### Repo Status
 `$ git status` - Check the status of your current repository and see which files have changed.
 
-`$ git diff` - __Fill Me Out__
+`$ git diff` - Shows differences between the commits, commit and working tree. These can be structured in multiple ways depending on what you are trying to see the differences. Examples: Changes between the working tree and the index or a tree, changes between the index and a tree, changes between two trees, changes between two blob objects, or changes between two files on disk.
 
 #### Repo History
 `$ git log` - __Fill Me Out__
@@ -22,12 +22,12 @@ Whenever you're confused about git, come read this cheat sheet. Remember that al
 `$ git log -p [filename]` __Fill Me Out__
 
 #### Stage files to commit
-`$ git add <filename>` - __Fill Me Out__
+`$ git add <filename>` - Adds file contents to the staging area based on the file name. If no filename is specified, 
 
-`$ git add -A` - __Fill Me Out__
+`$ git add -A` - Adds updates to the entire working tree - downstream. This command can also have a <pathspec> which updates both the index and the specified <pathspec>.
 
 #### Commit changes in staged files
-`$ git commit -m "<commit message>"` - __Fill Me Out__
+`$ git commit -m "<commit message>"` - Provides the commit message on the command line. Let's the admin and other users know any specific information about the commit. 
 
 #### Branching
 `$ git branch <branch name>` - __Fill Me Out__
